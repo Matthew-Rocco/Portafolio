@@ -2,30 +2,124 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.colores{
+  color: rgb(224, 41, 87);
+  color: rgb(31, 41, 55);
+  color: rgb(198, 207, 201);
+  color: rgb(107, 114, 128);
+}
+
+.colores2 {
+  color: rgb(8, 217, 214);
+  color: rgb(22, 30, 84);
+  color: rgb(255, 46, 99);
+  color: rgb(234, 234, 234);
+}
+
+.nav-link.active {
+  background-color: rgb(255, 46, 99) !important;
+}
+
+.fondo {
+  background-color: rgb(234, 234, 234);
+}
+
+.fondo-oscuro {
+  background-color: rgb(22, 30, 84);
+}
+.sombra {
+  box-shadow: -6px 14px 19px 7px rgba(31, 41, 55, 0.4);
+}
+
+/* .boton {
+  color: white;
+  background-color: rgb(224, 41, 87) !important;
+} */
+
+.fondo-titular {
+  transform: skew(-20deg);
+  background-color: rgb(22, 30, 84);
+  box-shadow: -6px 14px 19px 7px rgba(31, 41, 55, 0.4);
+  border-radius: 6px;
+}
+
+.fondo-experiencia {
+  transform: scale(1.1);
+  background-color: rgb(255, 46, 99);
+  box-shadow: -6px 14px 19px 7px rgba(31, 41, 55, 0.4);
+  border-radius: 6px;
+}
+
+.fondo-estudios {
+  transform: translate(-25px);
+  background-color: rgb(8, 217, 214);
+  box-shadow: -19px 14px 19px 7px rgba(31, 41, 55, 0.4);
+  border-radius: 6px;
+}
+
+.texto-titular {
+  transform: skew(20deg);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.foto {
+  border: 6px double rgb(22, 30, 84);
+  width: 50%;
+  border-radius: 500px 500px 500px 500px;
+}
+
+.fondo-foto {
+  border-radius: 500px 500px 500px 500px;
+  background-color: rgb(8, 217, 214);
+}
+
+.hover-github {
+  background-image: url("../public/images/github.png") 50%;
+  width: 100%;
+}
+.hover-github:hover {
+  background-image: url("../public/images/github2.png");
+  width: 100%;
+}
+
+.texto-titular-3 {
+  transform: scale(0.9);
+  color: white;
+}
+
+.contenedor {
+  width: auto;
+  height: 100vh;
+  /* background: #fff; */
+  position: fixed;
+  overflow: auto;
+  border-radius: 4px;
+}
+.contenedor::-webkit-scrollbar{
+  width: 10px;
+}
+.contenedor::-webkit-scrollbar-thumb {
+  background: rgb(255, 46, 99);
+  border-radius: 5px;
+}
+
+.row {
+  margin: 0px;
+}
+
+.fuente {
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+  background-color: rgb(8, 217, 214);
 }
 
 @keyframes App-logo-spin {
