@@ -20,7 +20,7 @@ function App() {
             <h3>Practicante trainee en ACL</h3>
           </div>
           <div className='col col-md col-lg'>
-            <img src='./images/foto.jpg' className='foto' />
+            <img src='./images/foto.jpg' className='foto'  alt="foto"/>
           </div>
         </div>
 
@@ -67,12 +67,12 @@ function App() {
                   <div className='card card-body footer'>
                     <div className='row justify-content-center'>
                       <div className='col-6'>
-                        <img src='./images/parland.png' style={{"width": "100%"}} />
+                        <img src='./images/parland.png' style={{"width": "100%"}} alt="logo Parland" />
                       </div>
                       <div className='col pt-5'>
                         <p>Aplicacion de juegos de escritorio desarrollado en .net y java, donde con el juego 3 en raya, realice una conexion entre computadores a traves de sockets de java</p>
                         <a className='text-light' href='https://github.com/S-A-EXETUM/InterfazParland'  target={"_blank"} rel='noreferrer'>
-                            <img src='./images/github.png' style={{"width": "10%"}}/>
+                            <img src='./images/github.png' style={{"width": "10%"}} alt="github" />
                         </a>
                       </div>
                     </div>
@@ -82,12 +82,12 @@ function App() {
                   <div className='card card-body footer'>
                     <div className='row justify-content-center'>
                       <div className='col-6'>
-                        <img src='./images/vic2.png' style={{"width": "100%"}} />
+                        <img src='./images/vic2.png' style={{"width": "100%"}} alt="logo Vic2" />
                       </div>
                       <div className='col pt-5'>
                         <p>Desarrollado en el stack de MERN, se ideó para facilitar a los usuarios el poder acceder a dietas o ejercicios, usando firebase para el control de usuarios y mongodb para guardar la información</p>
                         <a className='text-light' href='https://github.com/S-A-EXETUM'  target={"_blank"} rel='noreferrer'>
-                            <img src='./images/github.png' style={{"width": "10%"}}/>
+                            <img src='./images/github.png' style={{"width": "10%"}} alt="github" />
                         </a>
                       </div>
                     </div>
@@ -97,12 +97,12 @@ function App() {
                   <div className='card card-body footer'>
                     <div className='row justify-content-center'>
                       <div className='col-6 py-5 text-center'>
-                        <img className='my-4' src='./images/pcIdeal.png' style={{"width": "100%"}} />
+                        <img className='my-4' src='./images/pcIdeal.png' style={{"width": "100%"}} alt="logo PcIdeal" />
                       </div>
                       <div className='col pt-5'>
                         <p>Proyecto web que consistia en permitir a los usuarios poder cotizar computadores dependiendo de las piezas que estos eligieran, desarrollado principalmente con el lenguaje php, ademas de utilizar javascript y bootstrap</p>
                         <a className='text-light' href='https://github.com/Matthew-Rocco/ProyectoWeb-Roberto-Alvarez-Matthew-Rocco'  target={"_blank"} rel='noreferrer'>
-                            <img src='./images/github.png' style={{"width": "10%"}}/>
+                            <img src='./images/github.png' style={{"width": "10%"}} alt="github" />
                         </a>
                       </div>
                     </div>
@@ -113,7 +113,7 @@ function App() {
                     <div className='row justify-content-center'>
                       <div className='col-6'>
                         <a className='text-light' href='https://github.com/Matthew-Rocco'  target={"_blank"} rel='noreferrer'>
-                            <img src='./images/github.png' style={{"width": "50%"}}/>
+                            <img src='./images/github.png' style={{"width": "50%"}} alt="github" />
                         </a>
                       </div>
                       <div className='col pt-5'>
@@ -132,7 +132,7 @@ function App() {
         <div className='row justify-content-center m-2' style={{"margin": "0px", "bottom": "0"}}>
           <div className='col-1'>
             <a className='text-light' href='https://github.com/Matthew-Rocco'  target={"_blank"} rel='noreferrer'>
-              <img src='./images/github.png' style={{"width": "25%"}}/>
+              <img src='./images/github.png' style={{"width": "25%"}} alt="github" />
             </a>
           </div>
           <div className='col-2'>
@@ -140,7 +140,7 @@ function App() {
           </div>
           <div className='col-1'>
             <a className='text-light' href='https://www.linkedin.com/in/matthew-rocco-tapia/'  target={"_blank"} rel='noreferrer'>
-              <img src='./images/linkedin.png' style={{"width": "50%"}}/>
+              <img src='./images/linkedin.png' style={{"width": "50%"}} alt="linkedin" />
             </a>
           </div>
         </div>
