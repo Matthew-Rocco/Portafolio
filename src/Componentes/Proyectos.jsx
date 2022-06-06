@@ -17,7 +17,7 @@ function Proyectos(){
                             <img src='./images/3enRaya.png' style={{"width": "100%"}} alt="logo Parland" />
                         </div>
                         <div className='col pt-5'>
-                            <p>Aplicación de escritorio para jugar al 3 en raya, desarrollado en java, realice una conexión entre computadores a través de sockets e hilos, para mantener un servidor y la conexion de usuarios</p>
+                            <p>Aplicación de escritorio para jugar al 3 en raya desarrollado en java. Donde realice una conexión entre computadores a través de sockets e hilos para mantener un servidor y la conexión de usuarios</p>
                             <a className='text-light' href='https://github.com/Matthew-Rocco/TresEnRaya'  target={"_blank"} rel='noreferrer'>
                                 <img src='./images/github.png' style={{"width": "10%"}} alt="github" />
                             </a>
