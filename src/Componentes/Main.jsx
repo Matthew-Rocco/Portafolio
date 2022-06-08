@@ -9,11 +9,14 @@ function Main(){
         <>
         {/* Titulo */}
         <div className='row m-5 fondo-foto shadow-lg'>
-          <div className='col-12 col-md-6 text-light col-lg-8 pt-5'>
+          <div className='col-12 col-md-3 col-lg-3'>
+            <img src='./images/logo.png' className='foto-logo'  alt="logoACL"/>
+          </div>
+          <div className='col-12 col-md-6 col-lg-5 pt-5 text-light'>
             <h1 style={{"fontSize": "70px", "letterSpacing": "1px", "wordSpacing": "1px"}}>Matthew Rocco</h1>
             <h3>Practicante trainee en ACL</h3>
           </div>
-          <div className='col col-md col-lg'>
+          <div className='col-12 col-md-3 col-lg-4'>
             <img src='./images/foto.jpg' className='foto'  alt="foto"/>
           </div>
         </div>

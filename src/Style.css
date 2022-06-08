@@ -76,6 +76,10 @@
   border-radius: 500px 500px 500px 500px;
 }
 
+.foto-logo {
+  width: 50%;
+}
+
 .fondo-foto {
   border-radius: 500px 500px 500px 500px;
   background-color: rgb(27, 27, 27);
