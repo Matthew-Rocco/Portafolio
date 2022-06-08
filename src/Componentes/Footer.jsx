@@ -1,8 +1,8 @@
 function Footer(){
     return(
         <>
-            <h2 className='m-2 p-2'>Matthew Andrés Rocco Tapia</h2>
-            <div className='row justify-content-center m-2' style={{"margin": "0px", "bottom": "0"}}>
+            <h2 className='m-2 p-2 text-white'>Matthew Andrés Rocco Tapia</h2>
+            <div className='row justify-content-center m-2 text-white' style={{"margin": "0px", "bottom": "0"}}>
                 <div className='col-2 text-center'>
                     <div className='row justify-content-center'>
                     <a href="https://github.com/Matthew-Rocco" className='nav-link' target={"_blank"} rel="noreferrer">

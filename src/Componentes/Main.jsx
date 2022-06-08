@@ -9,7 +9,7 @@ function Main(){
         <>
         {/* Titulo */}
         <div className='row m-5 fondo-foto shadow-lg'>
-          <div className='col-12 col-md-6 col-lg-8 pt-5'>
+          <div className='col-12 col-md-6 text-light col-lg-8 pt-5'>
             <h1 style={{"fontSize": "70px", "letterSpacing": "1px", "wordSpacing": "1px"}}>Matthew Rocco</h1>
             <h3>Practicante trainee en ACL</h3>
           </div>
@@ -28,7 +28,7 @@ function Main(){
         {/* herramientas */}
 
         <div className='row mt-5 justify-content-center'>
-          <h2>Skills</h2>
+          <h2 className='text-light'>Skills</h2>
           <Herramientas />
         </div>
 

@@ -8,34 +8,31 @@
   }
 }
 
-
-.colores{
-  color: rgb(224, 41, 87);
-  color: rgb(31, 41, 55);
-  color: rgb(198, 207, 201);
-  color: rgb(107, 114, 128);
+.monocromo{
+  filter: grayscale(100%);
 }
 
-.colores2 {
-  color: rgb(8, 217, 214);
-  color: rgb(22, 30, 84);
-  color: rgb(255, 46, 99);
-  color: rgb(234, 234, 234);
+.colores {
+  color: rgb(255, 255, 255);
+  color: rgb(27, 27, 27);
+  color: rgb(33, 37, 41);
+  color: rgb(18, 18, 18);
 }
 
 .nav-link.active {
-  background-color: rgb(255, 46, 99) !important;
+  background-color: rgb(33, 37, 41) !important;
 }
 
 .fondo {
-  background-color: rgb(234, 234, 234);
+  background-color: rgb(18, 18, 18);
 }
 
 .fondo-oscuro {
-  background-color: rgb(22, 30, 84);
+  background-color: rgb(27, 27, 27);
 }
+
 .sombra {
-  box-shadow: -6px 14px 19px 7px rgba(31, 41, 55, 0.4);
+  box-shadow: -6px 14px 19px 7px rgba(18, 18, 18, 0.4);
 }
 
 /* .boton {
@@ -43,24 +40,28 @@
   background-color: rgb(224, 41, 87) !important;
 } */
 
+.fondo-barra{
+  background-color: rgb(33, 37, 41);
+}
+
 .fondo-titular {
   transform: skew(-20deg);
-  background-color: rgb(22, 30, 84);
-  box-shadow: -6px 14px 19px 7px rgba(31, 41, 55, 0.4);
+  background-color: rgb(33, 37, 41);
+  box-shadow: -6px 14px 19px 7px rgba(18, 18, 18, 0.4);
   border-radius: 6px;
 }
 
 .fondo-experiencia {
   transform: scale(1.1);
-  background-color: rgb(255, 46, 99);
-  box-shadow: -6px 14px 19px 7px rgba(31, 41, 55, 0.4);
+  background-color: rgb(27, 27, 27);
+  box-shadow: -6px 14px 19px 7px rgba(18, 18, 18, 0.4);
   border-radius: 6px;
 }
 
 .fondo-estudios {
   transform: translate(-25px);
-  background-color: rgb(8, 217, 214);
-  box-shadow: -19px 14px 19px 7px rgba(31, 41, 55, 0.4);
+  background-color: rgb(33, 37, 41);
+  box-shadow: -19px 14px 19px 7px rgba(18, 18, 18, 0.4);
   border-radius: 6px;
 }
 
@@ -70,14 +71,14 @@
 }
 
 .foto {
-  border: 6px double rgb(22, 30, 84);
+  border: 6px double rgb(18, 18, 18);
   width: 50%;
   border-radius: 500px 500px 500px 500px;
 }
 
 .fondo-foto {
   border-radius: 500px 500px 500px 500px;
-  background-color: rgb(8, 217, 214);
+  background-color: rgb(27, 27, 27);
 }
 
 .hover-github {
@@ -119,7 +120,7 @@
 }
 
 .footer {
-  background-color: rgb(8, 217, 214);
+  background-color: rgb(27, 27, 27);
 }
 
 @keyframes App-logo-spin {
