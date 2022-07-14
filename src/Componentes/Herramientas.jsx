@@ -6,7 +6,7 @@ function Herramientas(){
                     <div className="col-12 col-md-6 col-lg-6">
                         <p style={{"margin": "0px"}}>Java</p>
                         <div className="progress progress-bar-striped fondo-barra progress-bar-animated mt-2 mb-3">
-                            <div className="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style={{"width": "60%"}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style={{"width": "68%"}} aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <p style={{"margin": "0px"}}>JavaScript</p>
                         <div className="progress progress-bar-striped fondo-barra progress-bar-animated mt-2 mb-3">
@@ -43,6 +43,10 @@ function Herramientas(){
                         <p style={{"margin": "0px"}}>React</p>
                         <div className="progress progress-bar-striped fondo-barra progress-bar-animated mt-2 mb-3">
                             <div className="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style={{"width": "40%"}} aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <p style={{"margin": "0px"}}>PL/SQL</p>
+                        <div className="progress progress-bar-striped fondo-barra progress-bar-animated mt-2 mb-3">
+                            <div className="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style={{"width": "62%"}} aria-valuenow="62" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         </div>
                         <div className="col col-md col-lg">
@@ -84,7 +88,11 @@ function Herramientas(){
                         </div>
                         <p style={{"margin": "0px"}}>Azure DevOps</p>
                         <div className="progress progress-bar-striped fondo-barra progress-bar-animated mt-2 mb-3">
-                            <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style={{"width": "19%"}} aria-valuenow="19" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style={{"width": "22%"}} aria-valuenow="22" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <p style={{"margin": "0px"}}>NiFi</p>
+                        <div className="progress progress-bar-striped fondo-barra progress-bar-animated mt-2 mb-3">
+                            <div className="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style={{"width": "25%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
