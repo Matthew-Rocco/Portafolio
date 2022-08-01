@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App fondo contenedor" style={{"margin": "0px"}}>
-      <header>
+      <header class="sticky-top">
         <NavBar />
       </header>
       <main className='fuente'>
